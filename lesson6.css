@@ -1,0 +1,131 @@
+.logo {
+	width: 10%;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	box-shadow: 3px;
+}
+.logo img {
+	border-radius: 20%;
+	box-shadow: 5px 5px;
+}
+img {
+	height: 100%;
+	width: 100%;
+}
+*{
+	margin-right: auto;
+	margin-left: auto;
+}
+body{
+	background-image: url("pizzaback2.jpg");
+	color: white;
+	font-size: 30px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-align: center;
+}
+
+h1{
+	color: yellow;
+    font-size: 100px;
+    margin-top: -1px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+p{
+	font-family: 'Sriracha', cursive;
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.home {
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+h3 {
+	color: YellowGreen;
+    font-size: 50px;
+    margin-top: -1px;
+    margin-bottom: 0px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.contact
+{
+	border:5px;
+    border-color: YellowGreen;
+    border-style: solid;
+    width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 350px;
+	margin-top: 40px;
+}
+
+
+ul{
+	max-width: 300px;
+}
+.day{
+	float: left;
+}
+.hour{
+	float:right;
+}
+h4{
+	color: YellowGreen;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.menu-img {
+	width: 80%;
+	height:auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	border:5px;
+    border-color: YellowGreen;
+    border-style: solid;
+}
+table,th,td{
+	border: 1px solid YellowGreen;
+}
+table{
+	max-width: 600px;
+	min-width: 400px;
+}
+.navbar{
+	height: 100%;
+	width: 25%;
+	max-width: 160px;
+	min-width: 80px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: YellowGreen;
+	overflow-x: hidden;
+	padding-top:20px;
+}
+.navbar a{
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size:25px;
+	color:#818181;
+	display: block;
+}
+.navbar a:hover{
+	color:#f1f1f1;
+}
+.main{
+	margin-left:25%;
+	padding: 0px 10px;
+}
+@media screen and (max-height: 450px){
+	.navbar{
+		padding-top: 15px;
+	}
+	.navbar a{
+		font-size: 18px;
+	}
+}
